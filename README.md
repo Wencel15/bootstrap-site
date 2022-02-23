@@ -44,7 +44,7 @@
 
 ### Sem Bootstrap
 ```
-<a class="botao botao-grande">Botão</a>
+<a class="btn btn-lg">Botão<\a>
 
 <style>
 html {
