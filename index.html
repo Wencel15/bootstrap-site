@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
     <title>Document</title>
 </head>
 <body>
-
     <header>
         <div class="container">
             <div class="row">
                 <div class="col">
-
                     <h1>Logo</h1>
                 </div>
                 <div class="col"></div>
@@ -23,44 +22,100 @@
                         <li class="nav-item">Produtos<a class="nav-link" href="#produtos"></a></li>
                         <li class="nav-item">Contato<a class="nav-link" href="#contato"></a></li>
                     </ul>
-
-
                 </div>
             </div>
         </div>
 
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h1>Coluna 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa quos, voluptatibus dolores aspernatur aliquid amet architecto eos quia consequuntur debitis, quisquam recusandae placeat hic quas voluptatum, itaque voluptas expedita!</p>
-                <a class="btn btn-lg btn-success">Botão<\a>
-            </div>
-            <div class="col-md-6 com-sm-12">
-                <h2>Coluna 2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ut consequuntur blanditiis laboriosam minus, suscipit perspiciatis veritatis quos voluptate exercitationem quibusdam asperiores iste voluptates a tempore aliquid itaque voluptatibus.</p>
-                <a class="btn btn-small btn-danger">Botão<\a>
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Coluna 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa quos, voluptatibus dolores aspernatur aliquid amet architecto eos quia consequuntur debitis, quisquam recusandae placeat hic quas voluptatum, itaque voluptas expedita!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa quos, voluptatibus dolores aspernatur aliquid amet architecto eos quia consequuntur debitis, quisquam recusandae placeat hic quas voluptatum, itaque voluptas expedita!</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./imagem/pexels-pixabay-270360.jpg" alt="Imagem Exemplo" class="img-fluid">
+                </div>                
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <!-- Unidade = Largura da área dividido por 12-->
-            <div class="col-md-5 col-sm-12">Linha 1 - Coluna 1</div>
-            <div class="col-md-7 col-sm-12">Linha 1 - Coluna 2</div>
+    <section id="produtos">
+
+        <div class="container">
+            <div class="rol">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./imagem/pexels-pixabay-270360.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus est voluptatem quod quae, consectetur nostrum temporibus non nam eius fuga perferendis perspiciatis aliquid animi id placeat, culpa, accusamus provident.</p>
+                            <a class="btn btn-primary" href="#produto-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagem/pexels-pixabay-270360.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus est voluptatem quod quae, consectetur nostrum temporibus non nam eius fuga perferendis perspiciatis aliquid animi id placeat, culpa, accusamus provident.</p>
+                            <a class="btn btn-primary" href="#produto-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imagem/pexels-pixabay-270360.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi doloribus est voluptatem quod quae, consectetur nostrum temporibus non nam eius fuga perferendis perspiciatis aliquid animi id placeat, culpa, accusamus provident.</p>
+                            <a class="btn btn-primary" href="#produto-3">Ver produto</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col">Linha 2 - Coluna 1</div>
+
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campor do formulário para receber uma cotação. </p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu e-mail">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col">Linha 3 - Coluna 1</div>
-            <div class="col">Linha 3 - Coluna 2</div>
-            <div class="col">Linha 3 - Coluna 3</div>
-        </div>
-    </div>
+    </section>
+
+
+    
 
 
 
