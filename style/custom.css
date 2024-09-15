@@ -13,5 +13,8 @@ textarea {
     width: 32%;
     float: left;
     margin: 5px;
+    height: 100%;
+    
+    /* white-space: pre-line;  */
 }
 
